@@ -40,7 +40,12 @@ def draw(deck:DeckData, bar, label, window):
                 page_num += 1
                 pos_index = 0
                 page = Image.new("RGB",(conf['A4_w'],conf['A4_h']),color='#fff')
-    page.save(f'./out/{deck.name}/{page_num}.png',dpi=dpi)
+    if pos_index!=0:
+        info_draw = ImageDraw.Draw(page)
+        info_draw.text((page_pose[6][0],page_pose[6][1]+conf['bleed_h']+10),deck.loadtime,fill=(0,0,0),font=font)
+        info_draw.text((int(conf['A4_w']/2-200),page_pose[6][1]+conf['bleed_h']+10),deck.name,fill=(0,0,0),font=font)
+        info_draw.text((page_pose[8][0]+conf['bleed_w']-50,page_pose[8][1]+conf['bleed_h']+10),str(page_num),fill=(0,0,0),font=font)
+        page.save(f'./out/{deck.name}/{page_num}.png',dpi=dpi)
     deck.update_database()
     label.config(text="Finished!")
     window.protocol("WM_DELETE_WINDOW", lambda: window.destroy())
