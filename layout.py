@@ -2,19 +2,14 @@ import yaml
 import os
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
-from deck_card import DeckData, CardData
-
-def card_draw(card: CardData, frame: Image):
-    card.pic_with_frame = frame.copy().paste(Image.open(BytesIO(card.pic)),())
-    card.pic_with_frame.show()
-    pass
+from deck_card import DeckData
 
 def draw(deck:DeckData, bar, label, window):
     with open('./conf.yaml') as f:
         conf = yaml.load(f,Loader=yaml.FullLoader)
     page = Image.new("RGB",(conf['A4_w'],conf['A4_h']),color='#fff')
-    pos_x = [conf['x11']+conf['bleed_w']*i for i in range(3)]
-    pos_y = [conf['y11']+conf['bleed_h']*i for i in range(3)]
+    pos_x = [conf['x11']+conf['cut_w']+conf['bleed_w']*i for i in range(3)]
+    pos_y = [conf['y11']+conf['cut_h']+conf['bleed_h']*i for i in range(3)]
     page_pose = [(x,y) for y in pos_y for x in pos_x]
     pos_index = 0
     page_num = 1
@@ -27,6 +22,9 @@ def draw(deck:DeckData, bar, label, window):
         card.pic_with_frame = Image.open(f'./bleed_frame/{card.bleed_id}.png')
         _card = Image.open(BytesIO(card.pic))
         card.pic_with_frame.paste(_card, (conf['card_x'],conf['card_y']), _card)
+        card.pic_with_frame = card.pic_with_frame.crop((
+            conf['cut_w'],conf['cut_h'],conf['bleed_w']-conf['cut_w'],conf['bleed_h']-conf['cut_h']
+        ))
         for i in range(card.num):
             page.paste(card.pic_with_frame, page_pose[pos_index])
             card_count += 1
