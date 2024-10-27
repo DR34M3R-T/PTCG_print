@@ -1,0 +1,4 @@
+out/*
+temp/*.png
+*.pyc
+.vscode
