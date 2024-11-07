@@ -46,7 +46,37 @@ def draw(deck:DeckData, bar, label, window):
         info_draw.text((int(conf['A4_w']/2-200),page_pose[6][1]+conf['bleed_h']+10),deck.name,fill=(0,0,0),font=font)
         info_draw.text((page_pose[8][0]+conf['bleed_w']-50,page_pose[8][1]+conf['bleed_h']+10),str(page_num),fill=(0,0,0),font=font)
         page.save(f'./out/{deck.name}/{page_num}.png',dpi=dpi)
+        draw_back(pos_index, deck.name)
+    if card_count >= 9: draw_back(9, deck.name)
     deck.update_database()
     label.config(text="Finished!")
     window.protocol("WM_DELETE_WINDOW", lambda: window.destroy())
+    pass
+
+def draw_back(n: int, deckname: str):
+    if n>9 or n<1: return
+    with open('./conf.yaml') as f:
+        conf = yaml.load(f,Loader=yaml.FullLoader)
+    page = Image.new("RGB",(conf['A4_w'],conf['A4_h']),color='#fff')
+    pos_x = [conf['x11']+conf['cut_w']+conf['bleed_w']*i for i in range(3)]
+    pos_y = [conf['y11']+conf['cut_h']+conf['bleed_h']*i for i in range(3)]
+    page_pose = [(x,y) for y in pos_y for x in pos_x]
+    pos_index = 0
+    page_num = 1
+    card_count = 0
+    dpi = (conf['dpi'],conf['dpi'])
+    font = ImageFont.truetype('simhei.ttf' ,size=40)
+    back = Image.open(f'./bleed_frame/cardback.png').transpose(0)
+    back = back.crop((
+        conf['cut_w'],conf['cut_h'],conf['bleed_w']-conf['cut_w'],conf['bleed_h']-conf['cut_h']
+    ))
+    for i in range(n):
+        page.paste(back, page_pose[pos_index])
+        card_count += 1
+        pos_index += 1
+    page = page.transpose(0)
+    page.save(f'./out/{deckname}/back{n}.png',dpi=dpi)
+    page_num += 1
+    pos_index = 0
+    page = Image.new("RGB",(conf['A4_w'],conf['A4_h']),color='#fff')
     pass
