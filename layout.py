@@ -58,8 +58,8 @@ def draw_back(n: int, deckname: str):
     with open('./conf.yaml') as f:
         conf = yaml.load(f,Loader=yaml.FullLoader)
     page = Image.new("RGB",(conf['A4_w'],conf['A4_h']),color='#fff')
-    pos_x = [conf['x11']+conf['cut_w']+conf['bleed_w']*i for i in range(3)]
-    pos_y = [conf['y11']+conf['cut_h']+conf['bleed_h']*i for i in range(3)]
+    pos_x = [conf['x11']+conf['cut_w_back']+conf['bleed_w']*i for i in range(3)]
+    pos_y = [conf['y11']+conf['cut_h_back']+conf['bleed_h']*i for i in range(3)]
     page_pose = [(x,y) for y in pos_y for x in pos_x]
     pos_index = 0
     page_num = 1
@@ -68,7 +68,7 @@ def draw_back(n: int, deckname: str):
     font = ImageFont.truetype('simhei.ttf' ,size=40)
     back = Image.open(f'./bleed_frame/cardback.png').transpose(0)
     back = back.crop((
-        conf['cut_w'],conf['cut_h'],conf['bleed_w']-conf['cut_w'],conf['bleed_h']-conf['cut_h']
+        conf['cut_w_back'],conf['cut_h_back'],conf['bleed_w']-conf['cut_w_back'],conf['bleed_h']-conf['cut_h_back']
     ))
     for i in range(n):
         page.paste(back, page_pose[pos_index])

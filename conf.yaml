@@ -7,6 +7,8 @@ card_w: 736
 card_h: 1024
 cut_w: 16
 cut_h: 12
+cut_w_back: 8
+cut_h_back: 6
 card_x: 32
 card_y: 28
 x11: 35
