@@ -33,6 +33,7 @@ class CardData:
             words = raw.split(' ')
             assert len(words)>=4
             self.num = int(words[0])
+            if (words[-1] == "PH") : words.pop()
             self.pack = words[-2]
             self.id = words[-1].rjust(3,"0")
             self.name = ' '.join(words[1:-2])
