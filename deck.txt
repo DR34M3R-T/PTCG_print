@@ -1,37 +1,47 @@
-Deckname: Raging Ogerpon
+Deckname: Blast Terapagos
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 12
-4 Raging Bolt ex TEF 123
-4 Teal Mask Ogerpon ex TWM 25
-1 Sandy Shocks TEF 98
-1 Squawkabilly ex PAL 169
+Pokémon: 24
+3 Duskull SFA 18
+1 Dusclops SFA 19
+2 Dusknoir SFA 20
+3 Hoothoot SCR 114
+3 Noctowl SCR 115
+3 Terapagos ex SCR 128
+2 Pidgey OBF 162
+2 Pidgeot ex OBF 164
+2 Fan Rotom SCR 118
 1 Fezandipiti ex SFA 38
-1 Radiant Greninja ASR 46
+1 Bloodmoon Ursaluna ex TWM 141
+1 Squawkabilly ex PAL 169
 
-Trainer: 36
-4 Professor Sada's Vitality PAR 170
+Trainer: 31
+3 Iono PAL 185
+1 Professor's Research SVI 189
 1 Boss's Orders PAL 172
 1 Briar SCR 132
-1 Iono PAL 185
+1 Colress's Tenacity SFA 57
+4 Rare Candy SVI 191
 4 Nest Ball SVI 181
-4 Earthen Vessel PAR 163
-3 Pokégear 3.0 SVI 186
-3 Trekking Shoes ASR 156
-3 Night Stretcher SFA 61
-3 Pokémon Catcher SVI 187
-1 Energy Retrieval SVI 171
-1 Superior Energy Retrieval PAL 189
-1 Pal Pad SVI 182
-1 Lost Vacuum LOR 162
-1 Switch Cart ASR 154
+3 Ultra Ball SVI 196
+2 Buddy-Buddy Poffin TEF 144
+2 Night Stretcher SFA 61
+2 Counter Catcher PAR 160
+1 Feather Ball ASR 141
 1 Prime Catcher TEF 157
-3 PokéStop PGO 68
+1 Switch SVI 194
+4 Area Zero Underdepths SCR 131
 
-Energy: 12
-6 Grass Energy SVE 9
-3 Fighting Energy SVE 14
-3 Lightning Energy SVE 12
+Energy: 5
+4 Double Turbo Energy BRS 151
+1 Jet Energy PAL 190
+
+#  Cards more than 60 can also 
+#↓be included as spare cards!
+Spare: 3
+1 Switch SVI 194
+1 Buddy-Buddy Poffin TEF 144
+1 Boss's Orders PAL 172
