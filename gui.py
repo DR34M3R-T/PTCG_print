@@ -140,15 +140,15 @@ class GUI():
         self.refresh()
 
     def bleed_kbd(self,e):
-        match e.keycode:
-            case 65 | 37: # left
-                self.prevpic()
-            case 68 | 39: # right
-                self.nextpic()
-            case 87 | 38: # up
-                self.bleed_polling(-1)
-            case 83 | 40: # down
-                self.bleed_polling(+1)
+        kc = e.keycode
+        if kc == 65 or kc ==  37: # left
+            self.prevpic()
+        if kc == 68 or kc ==  39: # right
+            self.nextpic()
+        if kc == 87 or kc ==  38: # up
+            self.bleed_polling(-1)
+        if kc == 83 or kc ==  40: # down
+            self.bleed_polling(+1)
 
     def refresh(self):
         self.bleedVar.set(self.deck.list[self.p].bleed_id)
