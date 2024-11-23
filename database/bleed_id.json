@@ -1,0 +1,47 @@
+{
+    "en-US": {
+        "0": "sv_ace",
+        "1": "sv_dark",
+        "2": "sv_gold",
+        "3": "sv_light",
+        "4": "swsh_gold",
+        "5": "swsh_goldVS",
+        "6": "swsh_grayV",
+        "7": "swsh_light",
+        "8": "swsh_V",
+        "9": "swsh_VS",
+        "10": "swsh_yellow",
+        "11": "sv_light_sp",
+        "12": "sv_stellar"
+    },
+    "ja-JP": {
+        "0": "sv_ace",
+        "1": "sv_dark",
+        "2": "sv_gold",
+        "3": "sv_light",
+        "4": "swsh_gold",
+        "5": "swsh_goldVS",
+        "6": "swsh_grayV",
+        "7": "swsh_light",
+        "8": "swsh_V",
+        "9": "swsh_VS",
+        "10": "swsh_yellow",
+        "11": "sv_light_sp",
+        "12": "sv_stellar"
+    },
+    "zh-HK": {
+        "0": "sv_ace",
+        "1": "sv_dark",
+        "2": "sv_gold",
+        "3": "sv_light",
+        "4": "swsh_gold",
+        "5": "swsh_goldVS",
+        "6": "swsh_grayV",
+        "7": "swsh_light",
+        "8": "swsh_V",
+        "9": "swsh_VS",
+        "10": "swsh_yellow",
+        "11": "sv_light_sp",
+        "12": "sv_stellar"
+    }
+}
