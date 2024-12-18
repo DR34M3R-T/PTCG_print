@@ -4,9 +4,6 @@ import datetime
 import json
 import requests
 import pandas as pd
-from numpy import isnan
-from bs4 import BeautifulSoup as BS
-
 
 class CardInfo:
     def __init__(self) -> None:
