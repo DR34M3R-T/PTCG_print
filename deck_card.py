@@ -76,7 +76,7 @@ class CardData:
                 f'pack == "{info.pack}" and id == "{info.id}"'
             )
             self.group = _tmp["group"].values[0]
-            _bleed = _tmp["bleed_id"].values[0]
+            _bleed = str(_tmp["bleed_id"].values[0])
             info.bleed_id = (
                 "sv_light"
                 if not _bleed.isnumeric()

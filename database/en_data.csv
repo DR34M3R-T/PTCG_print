@@ -3005,7 +3005,7 @@
 3003,LOR,55,Manectric,2103,
 3004,LOR,56,Magnezone V,2104,
 3005,LOR,57,Magnezone VSTAR,2105,
-3006,LOR,58,Rotom V,2106,
+3006,LOR,58,Rotom V,2106,8
 3007,LOR,59,Tynamo,2107,
 3008,LOR,60,Eelektrik,2108,
 3009,LOR,61,Eelektross,2109,
@@ -3114,7 +3114,7 @@
 3112,LOR,164,Miss Fortune Sisters,2206,
 3113,LOR,165,Panic Mask,2207,
 3114,LOR,166,Riley,2208,
-3115,LOR,167,Thorton,2209,
+3115,LOR,167,Thorton,2209,10
 3116,LOR,168,Tool Box,2210,
 3117,LOR,169,Volo,2211,
 3118,LOR,170,Windup Arm,2212,
@@ -3844,7 +3844,7 @@
 3842,SVE,7,Darkness Energy,440,
 3843,SVE,8,Metal Energy,441,
 3844,SVE,9,Grass Energy,434,
-3845,SVE,10,Fire Energy,435,
+3845,SVE,10,Fire Energy,435,3
 3846,SVE,11,Water Energy,436,
 3847,SVE,12,Lightning Energy,437,
 3848,SVE,13,Psychic Energy,438,
