@@ -1,47 +1,49 @@
-Deckname: Blast Terapagos
+Deckname: Budew Draga
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 24
-3 Duskull SFA 18
+Pokémon: 10
+1 Lumineon V BRS 40
+4 Drakloak TWM 129
+4 Dreepy TWM 128
+3 Dragapult ex TWM 130
 1 Dusclops SFA 19
-2 Dusknoir SFA 20
-3 Hoothoot SCR 114
-3 Noctowl SCR 115
-3 Terapagos ex SCR 128
-2 Pidgey OBF 162
-2 Pidgeot ex OBF 164
-2 Fan Rotom SCR 118
+2 Duskull SFA 18
 1 Fezandipiti ex SFA 38
-1 Bloodmoon Ursaluna ex TWM 141
-1 Squawkabilly ex PAL 169
+1 Radiant Alakazam SIT 59
+2 Budew PRE 4
+2 Dusknoir SFA 20
 
-Trainer: 31
-3 Iono PAL 185
-1 Professor's Research SVI 189
-1 Boss's Orders PAL 172
-1 Briar SCR 132
-1 Colress's Tenacity SFA 57
-4 Rare Candy SVI 191
-4 Nest Ball SVI 181
+Trainer: 19
 3 Ultra Ball SVI 196
-2 Buddy-Buddy Poffin TEF 144
-2 Night Stretcher SFA 61
+2 Rare Candy SVI 191
+2 Arven OBF 186
+1 Earthen Vessel PAR 163
+1 Crispin SCR 133
+4 Buddy-Buddy Poffin TEF 144
+3 Lance SIT 159
 2 Counter Catcher PAR 160
-1 Feather Ball ASR 141
-1 Prime Catcher TEF 157
-1 Switch SVI 194
-4 Area Zero Underdepths SCR 131
+3 Iono PAL 185
+1 Professor Turo's Scenario PAR 171
+1 Night Stretcher SFA 61
+1 Technical Machine: Evolution PAR 178
+1 Sparkling Crystal SCR 142
+1 Forest Seal Stone SIT 156
+2 Nest Ball SVI 181
+1 Rescue Board TEF 159
+1 Artazon PAL 171
+2 Arven SVI 166
+1 Boss's Orders PAL 172
 
-Energy: 5
-4 Double Turbo Energy BRS 151
-1 Jet Energy PAL 190
+Energy: 2
+3 Basic {R} Energy SVE 10
+3 Basic {P} Energy SVE 13
+
+Total Cards: 60
 
 #  Cards more than 60 can also 
 #↓be included as spare cards!
-Spare: 3
+Spare: 1
 1 Switch SVI 194
-1 Buddy-Buddy Poffin TEF 144
-1 Boss's Orders PAL 172
