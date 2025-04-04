@@ -37,8 +37,14 @@ en_packs = {
     "Stellar Crown": "SCR",
     "Surging Sparks": "SSP",
     "Prismatic Evolutions": "PRE",
+    "Journey Together": "JTG",
 }
 ja_packs = {
+    "Hot Wind Arena":"SV9a",
+    "ex Starter Set Steven's Beldum & Metagross ex":"SVOD",
+    "ex Starter Set Marnie's Morpeko & Grimmsnarl ex":"SVOM",
+    "Battle Partners":"SV9",
+    "Battle Partners Deck Build Box":"SVN",
     "Terastal Fest ex": "SV8a",
     "Starter Decks Generations": "SVM",
     "Super Electric Breaker": "SV8",
@@ -154,9 +160,33 @@ with open('./database/zh_hidpi.csv', 'r') as file:
 zh_hidpi_list = [line.strip() for line in lines]
 
 # promo num check
-en_promo_num = len(en_data.query('pack == "SVP"'))
-input(f'en SVP have {en_promo_num} card, please check manually.')
+promo_current = en_data.query('pack == "SVP"')
+promo_num = len(promo_current)
+print(f'en SVP have {promo_num} cards in database.')
+promo_pack_url = f"https://limitlesstcg.com/cards/SVP?sort=set&display=list"
+retry_counter = 0
+while True:
+    try:
+        pack_page = requests.get(promo_pack_url).content
+        break
+    except:
+        retry_counter+=1
+        print(f'pack SVP retrying: x{retry_counter}                             ',end='\r')
+        time.sleep(2)
+promo_pack_soup = BS(pack_page, "html.parser")
+promo_pack_tb = promo_pack_soup.find("table")
+promo_pack_tb_IO = StringIO(promo_pack_tb.prettify())
+promo_pack_df = pd.read_html(promo_pack_tb_IO)[0]
+promo_pack_tb_IO.close()
+promo_pack_df = promo_pack_df[["Set", "No.", "Name"]]
+promo_pack_df.columns = ["pack", "id", "name"]
+promo_pack_df["id"] = promo_pack_df["id"].astype(str)
+promo_pack_df["group"] = -1
+promo_pack_df["bleed_id"] = ""
+promo_pack_delta = promo_pack_df[~promo_pack_df["id"].isin(promo_current["id"])]
+print(f'add {len(promo_pack_delta)} promos.')
 
+# update newest en pack
 group_idx = en_data['group'].max() + 1
 _, pack = list(en_packs.items())[-1]
 pack_url = f"https://limitlesstcg.com/cards/{pack}?sort=set&display=list"
@@ -179,6 +209,8 @@ pack_df.columns = ["pack", "id", "name"]
 pack_df["id"] = pack_df["id"].astype(str)
 pack_df["group"] = -1
 pack_df["bleed_id"] = ""
+pack_df = pd.concat([promo_pack_delta, pack_df], axis=0).reset_index(drop=True)
+
 for index, row in pack_df.iterrows():
     card_url = f"https://limitlesstcg.com/cards/{row['pack']}/{row['id']}"
     zh_url_suffix = "https://asia.pokemon-card.com/hk/card-search/list/?expansionCodes="
@@ -198,14 +230,20 @@ for index, row in pack_df.iterrows():
     card_tb.pop(0)
     en_flag = False
     ja_flag = False
+    is_SVP_init_release = False
     en_print_list = []
     ja_print_list = []
     for tr in card_tb:
         if not ja_flag:
             if "JP. Prints" in tr.text:
                 ja_flag = True
+                if (row["pack"] == "SVP") and (is_SVP_init_release):
+                    row["group"] = group_idx
+                    en_data.loc[len(en_data)] = row
+                    group_idx += 1
+                    is_SVP_init_release=False
                 continue
-            if en_flag:
+            if en_flag and not is_SVP_init_release:
                 continue
             en_pack_full, en_id = list([s.strip() for s in tr.text.split("#")])
             if not (en_pack_full in en_packs.keys()):
@@ -214,6 +252,9 @@ for index, row in pack_df.iterrows():
             en_pack = en_packs[en_pack_full]
             en_id = en_id.split("\n")[0].strip()
             if en_id == row["id"] and en_pack == row["pack"]:
+                if row["pack"] == "SVP":
+                    is_SVP_init_release = True
+                    continue
                 row["group"] = group_idx
                 en_data.loc[len(en_data)] = row
                 group_idx += 1
@@ -221,7 +262,14 @@ for index, row in pack_df.iterrows():
             else:
                 group_exist = en_data.query(
                     f'pack == "{en_pack}" and id == "{en_id}"'
-                )["group"].values[0]
+                )["group"].values
+                if len(group_exist) <= 0:
+                    if row["pack"] == "SVP":
+                        is_SVP_init_release = True
+                        continue
+                else:
+                    group_exist = group_exist[0]
+                    is_SVP_init_release=False
                 row["group"] = group_exist
                 en_data.loc[len(en_data)] = row
                 continue
