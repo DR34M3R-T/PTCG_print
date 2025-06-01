@@ -1,43 +1,43 @@
-Deckname: N Box
+Deckname: Team Rocket
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 17
-4 N's Zorua JTG 97
-4 N's Zoroark ex JTG 98
-2 N's Reshiram JTG 116
-2 N's Darmanitan JTG 27
-2 N's Darumaka JTG 26
-1 Fezandipiti ex SFA 38
-1 Budew PRE 4
-1 Pecharunt ex SFA 39
+Pokémon: 14
+4 Team Rocket's Spidops DRI 20
+4 Team Rocket's Tarountula DRI 19
+3 Team Rocket's Mewtwo ex DRI 81
+1 Team Rocket's Articuno DRI 51
+1 Team Rocket's Wobbuffet DRI 82
+1 Team Rocket's Mimikyu DRI 87
 
-Trainer: 35
-4 Iono PAL 185
-4 Arven OBF 186
-2 Boss's Orders PAL 172
-3 Buddy-Buddy Poffin TEF 144
-3 Nest Ball SVI 181
-3 N's PP Up JTG 153
+Trainer: 36
+3 Team Rocket's Giovanni DRI 174
+3 Team Rocket's Ariana DRI 171
+3 Team Rocket's Proton DRI 177
+2 Team Rocket's Archer DRI 170
+1 Team Rocket's Petrel DRI 176
+4 Team Rocket's Transceiver DRI 178
+4 Team Rocket's Great Ball DRI 175
 3 Ultra Ball SVI 196
-2 Night Stretcher SFA 61
-2 Counter Catcher PAR 160
-1 Unfair Stamp TWM 165
-1 Super Rod PAL 188
-1 Earthen Vessel PAR 163
-1 Technical Machine: Evolution PAR 178
+3 Earthen Vessel PAR 163
+2 Energy Switch SVI 173
+1 Secret Box TWM 163
+1 Night Stretcher SFA 61
+1 Bravery Charm PAL 173
 1 Defiance Band SVI 169
-1 Binding Mochi PRE 95
-2 N's Castle JTG 152
-1 Pokémon League Headquarters OBF 192
+4 Team Rocket's Factory DRI 173
 
-Energy: 8
-6 Darkness Energy SVE 15
-2 Reversal Energy PAL 192
+Energy: 10
+6 Grass Energy SVE 9
+4 Team Rocket's Energy DRI 182
+
+Total Cards: 60
 
 #  Cards more than 60 can also 
 #↓be included as spare cards!
-Spare: 1
-1 Switch SVI 194
+Spare: 3
+1 Iono PAL 185
+1 Team Rocket's Giovanni DRI 174
+1 Night Stretcher SFA 61
