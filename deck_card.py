@@ -65,7 +65,9 @@ class CardData:
             info.region = "en-US"
             info.pack = words[-2]
             info.id = words[-1]
-            str_id = words[-1].rjust(3, "0")
+            str_id = words[-1]
+            if (str_id.isdigit()):
+                str_id = str_id.rjust(3, "0")
             self.name = " ".join(words[1:-2])
             info.url = f"{self.en_url_pref}{info.pack}/{info.pack}_{str_id}_R_EN.png"
             info.filename = f"{info.pack}_{str_id}_R_EN.png"
@@ -104,7 +106,9 @@ class CardData:
             info.region = "en-US"
             info.pack = row["pack"]
             info.id = str(row["id"])
-            str_id = info.id.rjust(3, "0")
+            str_id = info.id
+            if (str_id.isdigit()):
+                str_id = str_id.rjust(3, "0")
             info.url = f"{self.en_url_pref}{info.pack}/{info.pack}_{str_id}_R_EN.png"
             info.filename = f"{info.pack}_{str_id}_R_EN.png"
             _bleed = str(row["bleed_id"])

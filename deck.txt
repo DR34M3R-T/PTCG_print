@@ -1,43 +1,45 @@
-Deckname: Team Rocket
+Deckname: Joltik Gholdengo
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 14
-4 Team Rocket's Spidops DRI 20
-4 Team Rocket's Tarountula DRI 19
-3 Team Rocket's Mewtwo ex DRI 81
-1 Team Rocket's Articuno DRI 51
-1 Team Rocket's Wobbuffet DRI 82
-1 Team Rocket's Mimikyu DRI 87
+Pokémon: 17
+4 Gimmighoul SSP 97
+3 Gholdengo ex PAR 139
+2 Genesect ex BLK 67
+2 Iron Hands ex PAR 70
+2 Joltik SCR 50
+1 Latias ex SSP 76
+1 Miraidon ex SVI 81
+1 Fezandipiti ex SFA 38
+1 Pikachu ex SSP 57
 
-Trainer: 36
-3 Team Rocket's Giovanni DRI 174
-3 Team Rocket's Ariana DRI 171
-3 Team Rocket's Proton DRI 177
-2 Team Rocket's Archer DRI 170
+Trainer: 32
+4 Arven OBF 186
+3 Boss's Orders PAL 172
+2 Brock's Scouting JTG 146
 1 Team Rocket's Petrel DRI 176
-4 Team Rocket's Transceiver DRI 178
-4 Team Rocket's Great Ball DRI 175
-3 Ultra Ball SVI 196
-3 Earthen Vessel PAR 163
-2 Energy Switch SVI 173
-1 Secret Box TWM 163
-1 Night Stretcher SFA 61
+1 Professor Turo's Scenario PAR 171
+4 Nest Ball SVI 181
+4 Superior Energy Retrieval PAL 189
+3 Buddy-Buddy Poffin TEF 144
+2 Pokégear 3.0 SVI 186
+2 Earthen Vessel PAR 163
+1 Prime Catcher TEF 157
+2 Air Balloon BLK 79
 1 Bravery Charm PAL 173
-1 Defiance Band SVI 169
-4 Team Rocket's Factory DRI 173
+2 Levincia JTG 150
 
-Energy: 10
-6 Grass Energy SVE 9
-4 Team Rocket's Energy DRI 182
+Energy: 11
+4 Lightning Energy SVE 12
+4 Grass Energy SVE 9
+3 Metal Energy SVE 16
 
 Total Cards: 60
 
 #  Cards more than 60 can also 
 #↓be included as spare cards!
 Spare: 3
-1 Iono PAL 185
-1 Team Rocket's Giovanni DRI 174
+2 Iono PAL 185
 1 Night Stretcher SFA 61

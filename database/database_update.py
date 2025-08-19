@@ -39,8 +39,16 @@ en_packs = {
     "Prismatic Evolutions": "PRE",
     "Journey Together": "JTG",
     "Destined Rivals": "DRI",
+    "Black Bolt":"BLK",
+    "White Flare":"WHT"
 }
 ja_packs = {
+    # Mega    
+    "Mega Brave":"M1L",
+    "Mega Symphonia":"M1S",
+    "Premium Trainer Box MEGA":"MA",
+    "Mega Promotional Cards":"MP",
+    # Gen9
     "White Flare": "SV11W",
     "Black Bolt": "SV11B",
     "Glory of Team Rocket": "SV10",
@@ -91,6 +99,7 @@ ja_packs = {
     "ex Starter Set Quaxly & Mimikyu ex": "SVAW",
     "Premium Trainer Box ex": "SVB",
     "Scarlet & Violet Promotional Cards": "SVP",
+    # Gen8
     "VSTAR Universe": "S12a",
     "Special Deck Set: Charizard VSTAR vs Rayquaza VMAX": "SO",
     "Paradigm Trigger": "S12",
