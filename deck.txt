@@ -1,45 +1,49 @@
-Deckname: Joltik Gholdengo
+Deckname: Blast Bunny
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 17
-4 Gimmighoul SSP 97
-3 Gholdengo ex PAR 139
-2 Genesect ex BLK 67
-2 Iron Hands ex PAR 70
-2 Joltik SCR 50
-1 Latias ex SSP 76
-1 Miraidon ex SVI 81
+Pokémon: 23
+4 Duskull PRE 35
+2 Dusclops PRE 36
+3 Dusknoir PRE 37
+2 Buneary PFL 83
+2 Mega Lopunny ex PFL 84
+1 Pidgey OBF 162
+1 Pidgeot ex OBF 164
+1 Bloodmoon Ursaluna ex TWM 141
+1 Budew PRE 4
+1 Ditto MEW 132
 1 Fezandipiti ex SFA 38
-1 Pikachu ex SSP 57
+1 Klefki SVI 96
+1 Latias ex SSP 76
+1 Mew ex MEW 151
+1 Mega Kangaskhan ex MEG 104
 
 Trainer: 32
-4 Arven OBF 186
-3 Boss's Orders PAL 172
-2 Brock's Scouting JTG 146
-1 Team Rocket's Petrel DRI 176
-1 Professor Turo's Scenario PAR 171
-4 Nest Ball SVI 181
-4 Superior Energy Retrieval PAL 189
-3 Buddy-Buddy Poffin TEF 144
-2 Pokégear 3.0 SVI 186
-2 Earthen Vessel PAR 163
-1 Prime Catcher TEF 157
-2 Air Balloon BLK 79
-1 Bravery Charm PAL 173
-2 Levincia JTG 150
+4 Lillie's Determination MEG 119
+3 Hilda WHT 84
+2 Boss's Orders MEG 114
+2 Iono PAL 185
+4 Buddy-Buddy Poffin TEF 144
+4 Rare Candy MEG 125
+4 Ultra Ball MEG 131
+3 Nest Ball SVI 181
+2 Night Stretcher SFA 61
+2 Switch MEG 130
+1 Counter Catcher PAR 160
+1 Jamming Tower TWM 153
 
-Energy: 11
-4 Lightning Energy SVE 12
-4 Grass Energy SVE 9
-3 Metal Energy SVE 16
+Energy: 5
+4 Jet Energy PAL 190
+1 Enriching Energy SSP 191
 
 Total Cards: 60
 
 #  Cards more than 60 can also 
 #↓be included as spare cards!
 Spare: 3
-2 Iono PAL 185
-1 Night Stretcher SFA 61
+1 Mega Kangaskhan ex MEG 104
+1 Hilda WHT 84
+1 Dusknoir PRE 37
