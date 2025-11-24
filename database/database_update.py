@@ -4,7 +4,10 @@ from io import StringIO
 from bs4 import BeautifulSoup as BS
 import pandas as pd
 
+pd.options.mode.copy_on_write = True
+
 en_packs = {
+    # Gen8
     "Sword & Shield Promos": "SP",
     "Sword & Shield": "SSH",
     "Rebel Clash": "RCL",
@@ -23,6 +26,7 @@ en_packs = {
     "Lost Origin": "LOR",
     "Silver Tempest": "SIT",
     "Crown Zenith": "CRZ",
+    # Gen9
     "Scarlet & Violet Promos": "SVP",
     "Scarlet & Violet Energy": "SVE",
     "Scarlet & Violet": "SVI",
@@ -40,10 +44,18 @@ en_packs = {
     "Journey Together": "JTG",
     "Destined Rivals": "DRI",
     "Black Bolt":"BLK",
-    "White Flare":"WHT"
+    "White Flare":"WHT",
+    # Mega
+    "Mega Promos":"MEP",
+    "Mega Evolution Energy":"MEE",
+    "Mega Evolution":"MEG",
+    "Phantasmal Flames":"PFL"
 }
 ja_packs = {
     # Mega    
+    "Inferno X":"M2",
+    "MEGA Starter Set Mega Diancie ex":"MBD",
+    "MEGA Starter Set Mega Gengar ex":"MBG",
     "Mega Brave":"M1L",
     "Mega Symphonia":"M1S",
     "Premium Trainer Box MEGA":"MA",
@@ -173,10 +185,10 @@ with open('./database/zh_hidpi.csv', 'r') as file:
 zh_hidpi_list = [line.strip() for line in lines]
 
 # promo num check
-promo_current = en_data.query('pack == "SVP"')
+promo_current = en_data.query('pack == "MEP"')
 promo_num = len(promo_current)
-print(f'en SVP have {promo_num} cards in database.')
-promo_pack_url = f"https://limitlesstcg.com/cards/SVP?sort=set&display=list"
+print(f'en MEP have {promo_num} cards in database.')
+promo_pack_url = f"https://limitlesstcg.com/cards/MEP?sort=set&display=list"
 retry_counter = 0
 while True:
     try:
@@ -184,7 +196,7 @@ while True:
         break
     except:
         retry_counter+=1
-        print(f'pack SVP retrying: x{retry_counter}                             ',end='\r')
+        print(f'pack MEP retrying: x{retry_counter}                             ',end='\r')
         time.sleep(2)
 promo_pack_soup = BS(pack_page, "html.parser")
 promo_pack_tb = promo_pack_soup.find("table")
@@ -331,7 +343,7 @@ ja_trim = pd.DataFrame(columns=["pack", "id", "group", "bleed_id"])
 
 def sort_data(row):
     if row.name == 'pack':
-        a = row.map(lambda x: -list(ja_packs.values()).index(x))
+        a = row.map(lambda x: -list(ja_packs.values()).index(x) if x in ja_packs.values() else 1)
     if row.name == 'id':
         a = row.map(lambda x: int(x) if x.isnumeric() else 9999)
     return a
