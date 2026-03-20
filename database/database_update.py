@@ -49,10 +49,16 @@ en_packs = {
     "Mega Promos":"MEP",
     "Mega Evolution Energy":"MEE",
     "Mega Evolution":"MEG",
-    "Phantasmal Flames":"PFL"
+    "Phantasmal Flames":"PFL",
+    "Ascended Heroes": "ASC"
 }
 ja_packs = {
     # Mega    
+    "Ninja Spinner": "M4",
+    "Nihil Zero": "M3",
+    "Starter Decks 100 Battle Collection": "MC",
+    "Starter Decks 100 Battle Collection CoroCiao ver.": "MP1",
+    "Mega Dream ex": "M2a",
     "Inferno X":"M2",
     "MEGA Starter Set Mega Diancie ex":"MBD",
     "MEGA Starter Set Mega Gengar ex":"MBG",
@@ -255,20 +261,20 @@ for index, row in pack_df.iterrows():
     card_tb.pop(0)
     en_flag = False
     ja_flag = False
-    is_SVP_init_release = False
+    is_Promo_init_release = False
     en_print_list = []
     ja_print_list = []
     for tr in card_tb:
         if not ja_flag:
             if "JP. Prints" in tr.text:
                 ja_flag = True
-                if (row["pack"] == "SVP") and (is_SVP_init_release):
+                if (row["pack"] == "MEP") and (is_Promo_init_release):
                     row["group"] = group_idx
                     en_data.loc[len(en_data)] = row
                     group_idx += 1
-                    is_SVP_init_release=False
+                    is_Promo_init_release=False
                 continue
-            if en_flag and not is_SVP_init_release:
+            if en_flag and not is_Promo_init_release:
                 continue
             en_pack_full, en_id = list([s.strip() for s in tr.text.split("#")])
             if not (en_pack_full in en_packs.keys()):
@@ -277,8 +283,8 @@ for index, row in pack_df.iterrows():
             en_pack = en_packs[en_pack_full]
             en_id = en_id.split("\n")[0].strip()
             if en_id == row["id"] and en_pack == row["pack"]:
-                if row["pack"] == "SVP":
-                    is_SVP_init_release = True
+                if row["pack"] == "MEP":
+                    is_Promo_init_release = True
                     continue
                 row["group"] = group_idx
                 en_data.loc[len(en_data)] = row
@@ -289,12 +295,12 @@ for index, row in pack_df.iterrows():
                     f'pack == "{en_pack}" and id == "{en_id}"'
                 )["group"].values
                 if len(group_exist) <= 0:
-                    if row["pack"] == "SVP":
-                        is_SVP_init_release = True
+                    if row["pack"] == "MEP":
+                        is_Promo_init_release = True
                         continue
                 else:
                     group_exist = group_exist[0]
-                    is_SVP_init_release=False
+                    is_Promo_init_release=False
                 row["group"] = group_exist
                 en_data.loc[len(en_data)] = row
                 continue

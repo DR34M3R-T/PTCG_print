@@ -1,49 +1,47 @@
-Deckname: Blast Bunny
+Deckname: Mega Greninja
 #↑You can specify the name of your deck
 #  like this, but only in the first line!
 
 #  Here is a normal deck list, 
 #↓but without num limit!
-Pokémon: 23
-4 Duskull PRE 35
-2 Dusclops PRE 36
-3 Dusknoir PRE 37
-2 Buneary PFL 83
-2 Mega Lopunny ex PFL 84
-1 Pidgey OBF 162
-1 Pidgeot ex OBF 164
-1 Bloodmoon Ursaluna ex TWM 141
-1 Budew PRE 4
-1 Ditto MEW 132
-1 Fezandipiti ex SFA 38
-1 Klefki SVI 96
-1 Latias ex SSP 76
-1 Mew ex MEW 151
-1 Mega Kangaskhan ex MEG 104
+Pokémon: 20
+4 Froakie M4 20
+3 Frogadier M4 21
+2 Mega Greninja ex M4 22
+2 Greninja ex TWM 106
+2 Hoothoot SCR 114
+2 Noctowl SCR 115
+2 Budew ASC 16
+1 Meowth ex M3 61
+1 Wellspring Mask Ogerpon ex TWM 64
+1 Fezandipiti ex ASC 142
 
-Trainer: 32
+Trainer: 30
 4 Lillie's Determination MEG 119
-3 Hilda WHT 84
+2 Dawn PFL 87
+2 Colress's Tenacity SFA 57
 2 Boss's Orders MEG 114
-2 Iono PAL 185
+1 Hilda WHT 84
 4 Buddy-Buddy Poffin TEF 144
-4 Rare Candy MEG 125
-4 Ultra Ball MEG 131
-3 Nest Ball SVI 181
-2 Night Stretcher SFA 61
-2 Switch MEG 130
-1 Counter Catcher PAR 160
-1 Jamming Tower TWM 153
+4 Poké Pad ASC 198
+2 Ultra Ball MEG 131
+2 Rare Candy MEG 125
+2 Special Red Card M4 72
+1 Pokégear 3.0 SVI 186
+1 Energy Retrieval SVI 171
+1 Air Balloon ASC 181
+1 Grand Tree SCR 136
+1 Surfing Beach MEG 129
 
-Energy: 5
-4 Jet Energy PAL 190
-1 Enriching Energy SSP 191
+Energy: 10
+8 Water Energy MEE 3
+2 Ignition Energy WHT 86
 
 Total Cards: 60
 
 #  Cards more than 60 can also 
 #↓be included as spare cards!
 Spare: 3
-1 Mega Kangaskhan ex MEG 104
+1 Surfing Beach MEG 129
 1 Hilda WHT 84
-1 Dusknoir PRE 37
+1 Neo Upper Energy TEF 162

@@ -69,11 +69,21 @@ class CardData:
             if (str_id.isdigit()):
                 str_id = str_id.rjust(3, "0")
             self.name = " ".join(words[1:-2])
-            info.url = f"{self.en_url_pref}{info.pack}/{info.pack}_{str_id}_R_EN.png"
             info.filename = f"{info.pack}_{str_id}_R_EN.png"
+            info.url = f"{self.en_url_pref}{info.pack}/{info.filename}"
             _tmp = CardData.database[info.region].query(
                 f'pack == "{info.pack}" and id == "{info.id}"'
             )
+            # 处理美版未发布的日版卡
+            if len(_tmp) == 0:
+                _tmp = CardData.database["ja-JP"].query(
+                    f'pack == "{info.pack}" and id == "{info.id}"'
+                )
+                assert len(_tmp) > 0
+                info.region = "ja-JP"
+                info.filename = f"{info.pack}_{info.id}_R_JP.png"
+                info.url = f"{self.ja_url_pref}{info.pack}/{info.filename}"
+
             self.group = _tmp["group"].values[0]
             _bleed = str(_tmp["bleed_id"].values[0])
             info.bleed_id = (
@@ -109,8 +119,8 @@ class CardData:
             str_id = info.id
             if (str_id.isdigit()):
                 str_id = str_id.rjust(3, "0")
-            info.url = f"{self.en_url_pref}{info.pack}/{info.pack}_{str_id}_R_EN.png"
             info.filename = f"{info.pack}_{str_id}_R_EN.png"
+            info.url = f"{self.en_url_pref}{info.pack}/{info.filename}"
             _bleed = str(row["bleed_id"])
             info.bleed_id = (
                 "sv_light"
@@ -124,8 +134,8 @@ class CardData:
             info.region = "ja-JP"
             info.pack = row["pack"]
             info.id = str(row["id"])
-            info.url = f"{self.ja_url_pref}{info.pack}/{info.pack}_{info.id}_R_JP.png"
             info.filename = f"{info.pack}_{info.id}_R_JP.png"
+            info.url = f"{self.ja_url_pref}{info.pack}/{info.filename}"
             _bleed = str(row["bleed_id"])
             info.bleed_id = (
                 "sv_light"
