@@ -5,7 +5,7 @@ from PIL import Image, ImageTk, PngImagePlugin
 from tkinter import ttk
 from io import BytesIO
 from deck_card import DeckData
-from layout import draw
+from layout import draw, auto_bleed
 
 MaximumDecompressedSize = 1024
 MegaByte = 2**20
@@ -116,17 +116,22 @@ class GUI:
         )
         self.canvas = tk.Canvas(self.bleedSubwindow, width=400, height=540)
 
-        self._bleed = ImageTk.PhotoImage(
-            self.BLEED_FRAMES[self.deck.list[self.p].region][
-                self.deck.list[self.p].bleed_id
-            ]
-        )
+        if self.deck.list[self.p].bleed_id == "z_auto":
+            self._bleed = ImageTk.PhotoImage(auto_bleed(Image.open(BytesIO(self.deck.list[self.p].pic))).resize((400,540)))
+        else:
+            self._bleed = ImageTk.PhotoImage(
+                self.BLEED_FRAMES[self.deck.list[self.p].region][
+                    self.deck.list[self.p].bleed_id
+                ]
+            )
         self.canvas.create_image(0, 0, anchor="nw", image=self._bleed)
 
         _pic = Image.open(BytesIO(self.deck.list[self.p].pic))
         _resized = _pic.resize((368, 512))
         self._pic = ImageTk.PhotoImage(_resized)
         self.canvas.create_image(16, 14, anchor="nw", image=self._pic)
+        if self.deck.list[self.p].bleed_id == "z_auto":
+            self.canvas.create_image(0, 0, anchor="nw", image=self._bleed)
 
         self.cardSpecifyFrame = tk.Frame(self.bleedSubwindow, width=90, height=540)
         self.cardsSplitBtn = tk.Button(
@@ -309,17 +314,23 @@ class GUI:
             f"Select bleed frame: {self.p+1}/{self.picnum} x{self.deck.list[self.p].num}"
         )
 
-        self._bleed = ImageTk.PhotoImage(
-            self.BLEED_FRAMES[self.deck.list[self.p].region][
-                self.deck.list[self.p].bleed_id
-            ]
-        )
+        if self.deck.list[self.p].bleed_id == "z_auto":
+            self._bleed = ImageTk.PhotoImage(auto_bleed(Image.open(BytesIO(self.deck.list[self.p].pic))).resize((400,540)))
+        else:
+            self._bleed = ImageTk.PhotoImage(
+                self.BLEED_FRAMES[self.deck.list[self.p].region][
+                    self.deck.list[self.p].bleed_id
+                ]
+            )
+
         self.canvas.create_image(0, 0, anchor="nw", image=self._bleed)
 
         _pic = Image.open(BytesIO(self.deck.list[self.p].pic))
         _resized = _pic.resize((368, 512), resample=Image.Resampling.HAMMING)
         self._pic = ImageTk.PhotoImage(_resized)
         self.canvas.create_image(16, 14, anchor="nw", image=self._pic)
+        if self.deck.list[self.p].bleed_id == "z_auto":
+            self.canvas.create_image(0, 0, anchor="nw", image=self._bleed)
 
         self.cRV_trace = self.cardRegionVar.trace_add("write", self.card_region_change)
         self.cardPrintCombo.bind("<<ComboboxSelected>>", self.print_change)

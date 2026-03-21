@@ -11,6 +11,9 @@ cut_w_back: 8
 cut_h_back: 6
 card_x: 32
 card_y: 28
+corner_size: 38
 x11: 35
 y11: 100
 
+marker: true
+marker_bias: -2

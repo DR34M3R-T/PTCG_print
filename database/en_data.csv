@@ -4021,7 +4021,7 @@
 4019,SVI,168,Crushing Hammer,408,
 4020,SVI,169,Defiance Band,2762,3
 4021,SVI,170,Electric Generator,2763,
-4022,SVI,171,Energy Retrieval,409,3
+4022,SVI,171,Energy Retrieval,409,13
 4023,SVI,172,Energy Search,410,
 4024,SVI,173,Energy Switch,411,3
 4025,SVI,174,Exp. Share,1108,
@@ -4036,7 +4036,7 @@
 4034,SVI,183,Penny,2770,
 4035,SVI,184,Picnic Basket,2771,
 4036,SVI,185,Poké Ball,134,
-4037,SVI,186,Pokégear 3.0,422,3
+4037,SVI,186,Pokégear 3.0,422,13
 4038,SVI,187,Pokémon Catcher,423,
 4039,SVI,188,Potion,425,
 4040,SVI,189,Professor's Research,140,3
@@ -5479,7 +5479,7 @@
 5477,TEF,141,Awakening Drum,3623,
 5478,TEF,142,Bianca's Devotion,3624,
 5479,TEF,143,Boxed Order,3625,
-5480,TEF,144,Buddy-Buddy Poffin,3626,3
+5480,TEF,144,Buddy-Buddy Poffin,3626,13
 5481,TEF,145,Ciphermaniac's Codebreaking,3627,
 5482,TEF,146,Eri,3628,
 5483,TEF,147,Explorer's Guidance,3629,
@@ -5497,7 +5497,7 @@
 5495,TEF,159,Rescue Board,3640,3
 5496,TEF,160,Salvatore,3641,
 5497,TEF,161,Mist Energy,3642,
-5498,TEF,162,Neo Upper Energy,3643,0
+5498,TEF,162,Neo Upper Energy,3643,13
 5499,TEF,163,Shiftry,3500,
 5500,TEF,164,Grotle,3506,
 5501,TEF,165,Deerling,3511,
@@ -5617,7 +5617,7 @@
 5615,TWM,61,Palafin ex,2570,
 5616,TWM,62,Iron Bundle,3699,
 5617,TWM,63,Walking Wake,3700,
-5618,TWM,64,Wellspring Mask Ogerpon ex,3701,1
+5618,TWM,64,Wellspring Mask Ogerpon ex,3701,13
 5619,TWM,65,Zapdos,3702,
 5620,TWM,66,Shinx,3703,
 5621,TWM,67,Luxio,3704,
@@ -5659,7 +5659,7 @@
 5657,TWM,103,Timburr,3740,
 5658,TWM,104,Gurdurr,3741,
 5659,TWM,105,Conkeldurr,3742,
-5660,TWM,106,Greninja ex,3743,1
+5660,TWM,106,Greninja ex,3743,13
 5661,TWM,107,Hawlucha,3744,
 5662,TWM,108,Glimmet,3745,
 5663,TWM,109,Glimmora,3746,
@@ -5836,7 +5836,7 @@
 5834,SFA,54,Academy at Night,3854,
 5835,SFA,55,Binding Mochi,3855,
 5836,SFA,56,Cassiopeia,3856,
-5837,SFA,57,Colress's Tenacity,3857,3
+5837,SFA,57,Colress's Tenacity,3857,13
 5838,SFA,58,Dangerous Laser,3858,
 5839,SFA,59,Janine's Secret Art,3859,
 5840,SFA,60,Neutralization Zone,3860,
@@ -5992,8 +5992,8 @@
 5990,SCR,111,Raging Bolt,3966,
 5991,SCR,112,Tauros,3967,
 5992,SCR,113,Eevee,3968,
-5993,SCR,114,Hoothoot,3969,3
-5994,SCR,115,Noctowl,2584,3
+5993,SCR,114,Hoothoot,3969,13
+5994,SCR,115,Noctowl,2584,13
 5995,SCR,116,Glameow,3970,
 5996,SCR,117,Purugly,3971,
 5997,SCR,118,Fan Rotom,3972,3
@@ -6014,7 +6014,7 @@
 6012,SCR,133,Crispin,3985,3
 6013,SCR,134,Deluxe Bomb,3986,
 6014,SCR,135,Glass Trumpet,3987,
-6015,SCR,136,Grand Tree,3988,0
+6015,SCR,136,Grand Tree,3988,13
 6016,SCR,137,Gravity Gemstone,3989,
 6017,SCR,138,Kofu,3990,
 6018,SCR,139,Lacey,3991,
@@ -7208,9 +7208,9 @@
 7206,WHT,81,Cheren,4746,
 7207,WHT,82,Energy Retrieval,409,
 7208,WHT,83,Harlequin,4747,
-7209,WHT,84,Hilda,4748,3
+7209,WHT,84,Hilda,4748,13
 7210,WHT,85,Tool Scrapper,591,
-7211,WHT,86,Ignition Energy,4749,3
+7211,WHT,86,Ignition Energy,4749,13
 7212,WHT,87,Sewaddle,4666,
 7213,WHT,88,Swadloon,4667,
 7214,WHT,89,Leavanny,4668,
@@ -7341,7 +7341,7 @@
 7339,MEP,28,Celebratory Fanfare,4776,
 7340,MEE,1,Grass Energy,434,
 7341,MEE,2,Fire Energy,435,
-7342,MEE,3,Water Energy,436,3
+7342,MEE,3,Water Energy,436,13
 7343,MEE,4,Lightning Energy,437,
 7344,MEE,5,Psychic Energy,438,
 7345,MEE,6,Fighting Energy,439,
@@ -7460,24 +7460,24 @@
 7458,MEG,111,Stufful,4878,
 7459,MEG,112,Bewear,4879,
 7460,MEG,113,Acerola's Mischief,4880,
-7461,MEG,114,Boss's Orders,229,3
+7461,MEG,114,Boss's Orders,229,13
 7462,MEG,115,Energy Switch,411,
 7463,MEG,116,Fighting Gong,4881,
 7464,MEG,117,Forest of Vitality,4882,
 7465,MEG,118,Iron Defender,4883,
-7466,MEG,119,Lillie's Determination,4884,3
+7466,MEG,119,Lillie's Determination,4884,13
 7467,MEG,120,Lt. Surge's Bargain,4885,
 7468,MEG,121,Mega Signal,4886,
 7469,MEG,122,Mystery Garden,4887,
 7470,MEG,123,Pokémon Center Lady,424,
 7471,MEG,124,Premium Power Pro,4888,
-7472,MEG,125,Rare Candy,427,3
+7472,MEG,125,Rare Candy,427,13
 7473,MEG,126,Repel,4889,
 7474,MEG,127,Risky Ruins,4890,
 7475,MEG,128,Strange Timepiece,4891,
-7476,MEG,129,Surfing Beach,4892,3
+7476,MEG,129,Surfing Beach,4892,13
 7477,MEG,130,Switch,430,
-7478,MEG,131,Ultra Ball,1848,3
+7478,MEG,131,Ultra Ball,1848,13
 7479,MEG,132,Wally's Compassion,4893,
 7480,MEG,133,Bulbasaur,4777,
 7481,MEG,134,Ivysaur,4778,
@@ -7621,7 +7621,7 @@
 7619,PFL,84,Mega Lopunny ex,4968,
 7620,PFL,85,Battle Cage,4969,
 7621,PFL,86,Blowtorch,4970,
-7622,PFL,87,Dawn,4971,3
+7622,PFL,87,Dawn,4971,13
 7623,PFL,88,Dizzying Valley,4972,
 7624,PFL,89,Firebreather,4973,
 7625,PFL,90,Grimsley's Move,4974,
@@ -7683,7 +7683,7 @@
 7681,ASC,13,Beautifly,4993,
 7682,ASC,14,Cascoon,4994,
 7683,ASC,15,Dustox,4995,
-7684,ASC,16,Budew,4185,3
+7684,ASC,16,Budew,4185,13
 7685,ASC,17,Grubbin,3871,
 7686,ASC,18,Team Rocket's Tarountula,4419,
 7687,ASC,19,Team Rocket's Spidops,4420,
@@ -7809,7 +7809,7 @@
 7807,ASC,139,Mandibuzz ex,5060,
 7808,ASC,140,Pangoro,5061,
 7809,ASC,141,Hoopa,5062,
-7810,ASC,142,Fezandipiti ex,3838,1
+7810,ASC,142,Fezandipiti ex,3838,13
 7811,ASC,143,Pecharunt,5063,
 7812,ASC,144,Mawile,5064,
 7813,ASC,145,Registeel ex,5065,
@@ -7848,7 +7848,7 @@
 7846,ASC,178,Terapagos,4151,
 7847,ASC,179,Terapagos ex,2605,
 7848,ASC,180,Acerola's Mischief,4880,
-7849,ASC,181,Air Balloon,405,3
+7849,ASC,181,Air Balloon,405,13
 7850,ASC,182,Anthea & Concordia,5090,
 7851,ASC,183,Boss's Orders,229,
 7852,ASC,184,Buddy-Buddy Poffin,3626,
@@ -7865,7 +7865,7 @@
 7863,ASC,195,N's PP Up,4393,
 7864,ASC,196,Night Stretcher,3861,
 7865,ASC,197,Nighttime Mine,5093,
-7866,ASC,198,Poké Pad,5094,3
+7866,ASC,198,Poké Pad,5094,13
 7867,ASC,199,Premium Power Pro,4888,
 7868,ASC,200,Surfer,4177,
 7869,ASC,201,Team Rocket's Archer,4567,

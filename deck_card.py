@@ -87,7 +87,7 @@ class CardData:
             self.group = _tmp["group"].values[0]
             _bleed = str(_tmp["bleed_id"].values[0])
             info.bleed_id = (
-                "sv_light"
+                "z_auto"
                 if not _bleed.isnumeric()
                 else CardData.bleed_id_dict[info.region][_bleed]
             )
@@ -123,7 +123,7 @@ class CardData:
             info.url = f"{self.en_url_pref}{info.pack}/{info.filename}"
             _bleed = str(row["bleed_id"])
             info.bleed_id = (
-                "sv_light"
+                "z_auto"
                 if not _bleed.isnumeric()
                 else CardData.bleed_id_dict[info.region][_bleed]
             )
@@ -138,7 +138,7 @@ class CardData:
             info.url = f"{self.ja_url_pref}{info.pack}/{info.filename}"
             _bleed = str(row["bleed_id"])
             info.bleed_id = (
-                "sv_light"
+                "z_auto"
                 if not _bleed.isnumeric()
                 else CardData.bleed_id_dict[info.region][_bleed]
             )
@@ -153,7 +153,7 @@ class CardData:
             info.url = f"{self.zh_url_pref}/{info.filename}"
             _bleed = str(row["bleed_id"])
             info.bleed_id = (
-                "sv_light"
+                "z_auto"
                 if not _bleed.isnumeric()
                 else CardData.bleed_id_dict[info.region][_bleed]
             )
