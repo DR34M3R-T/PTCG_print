@@ -30,18 +30,18 @@ class CardData:
     region = "en-US"
     dtypes = {"id": "str", "group": "int", "bleed_id": "str"}
     database = {
-        "en-US": pd.read_csv("./database/en_data.csv", index_col=0, dtype=dtypes),
-        "ja-JP": pd.read_csv("./database/ja_data.csv", index_col=0, dtype=dtypes),
-        "zh-HK": pd.read_csv("./database/zh_data.csv", index_col=0, dtype=dtypes),
+        "en-US": pd.read_csv("./database/en_data.csv", dtype=dtypes),
+        "ja-JP": pd.read_csv("./database/ja_data.csv", dtype=dtypes),
+        "zh-HK": pd.read_csv("./database/zh_data.csv", dtype=dtypes),
     }
     en_url_pref = "https://limitlesstcg.nyc3.digitaloceanspaces.com/tpci/"
     ja_url_pref = "https://limitlesstcg.nyc3.digitaloceanspaces.com/tpc/"
     zh_url_pref = "https://asia.pokemon-card.com/hk/card-img"
 
     def save_database():
-        CardData.database["en-US"].to_csv("./database/en_data.csv", encoding="utf-8")
-        CardData.database["ja-JP"].to_csv("./database/ja_data.csv", encoding="utf-8")
-        CardData.database["zh-HK"].to_csv("./database/zh_data.csv", encoding="utf-8")
+        CardData.database["en-US"].to_csv("./database/en_data.csv", encoding="utf-8", index=False)
+        CardData.database["ja-JP"].to_csv("./database/ja_data.csv", encoding="utf-8", index=False)
+        CardData.database["zh-HK"].to_csv("./database/zh_data.csv", encoding="utf-8", index=False)
 
     def __init__(self, raw: str) -> None:
         self.num = 0
@@ -63,6 +63,7 @@ class CardData:
                 words.pop()
             info = CardInfo()
             info.region = "en-US"
+            self.region = "en-US"
             info.pack = words[-2]
             info.id = words[-1]
             str_id = words[-1]
@@ -81,6 +82,7 @@ class CardData:
                 )
                 assert len(_tmp) > 0
                 info.region = "ja-JP"
+                self.region = "ja-JP"
                 info.filename = f"{info.pack}_{info.id}_R_JP.png"
                 info.url = f"{self.ja_url_pref}{info.pack}/{info.filename}"
 
@@ -91,7 +93,7 @@ class CardData:
                 if not _bleed.isnumeric()
                 else CardData.bleed_id_dict[info.region][_bleed]
             )
-            self.alts["en-US"].append(info)
+            self.alts[info.region].append(info)
             return 1
         except:
             return -1
@@ -107,7 +109,7 @@ class CardData:
                 self.__setattr__(attr_name, tmp_.__getattribute__(attr_name))
 
     def get_alts(self):
-        base = self.alts["en-US"][0]
+        base = self.alts[self.region][0]
         en_ingroup = CardData.database["en-US"].query(f"group == {self.group}")
         for index, row in en_ingroup.iterrows():
             if row["pack"] == base.pack and row["id"] == base.id:
