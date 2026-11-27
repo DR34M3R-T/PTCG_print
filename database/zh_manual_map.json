@@ -1,0 +1,5 @@
+{
+  "_comment": "Manual group mapping for ZH-HK cards (e.g., Promo M-P / SV-P or region-exclusive starter decks). Map by_filename (e.g. 'hk00019088.png') or by_pack_id (e.g. 'M-P:145') to {'ja': ['MP', '145']} or {'en': ['POR', '1']}.",
+  "by_filename": {},
+  "by_pack_id": {}
+}

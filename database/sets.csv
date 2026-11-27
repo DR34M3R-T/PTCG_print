@@ -1,0 +1,422 @@
+region,code,name,era,release_date,card_count,order
+en-US,DLR,Delta Reign,Mega,2026-11-06,141,0
+en-US,30C,30th Celebration,Mega,2026-09-16,190,1
+en-US,PBL,Pitch Black,Mega,2026-07-17,120,2
+en-US,CRI,Chaos Rising,Mega,2026-05-22,122,3
+en-US,POR,Perfect Order,Mega,2026-03-27,124,4
+en-US,ASC,Ascended Heroes,Mega,2026-01-30,295,5
+en-US,PFL,Phantasmal Flames,Mega,2025-11-14,130,6
+en-US,MEG,Mega Evolution,Mega,2025-09-26,188,7
+en-US,MEE,Mega Evolution Energy,Mega,2025-09-25,16,8
+en-US,MEP,Mega Promos,Mega,,117,9
+en-US,BLK,Black Bolt,Scarlet & Violet,2025-07-18,172,10
+en-US,WHT,White Flare,Scarlet & Violet,2025-07-18,173,11
+en-US,DRI,Destined Rivals,Scarlet & Violet,2025-05-30,244,12
+en-US,JTG,Journey Together,Scarlet & Violet,2025-03-28,190,13
+en-US,PRE,Prismatic Evolutions,Scarlet & Violet,2025-01-17,180,14
+en-US,SSP,Surging Sparks,Scarlet & Violet,2024-11-08,252,15
+en-US,SCR,Stellar Crown,Scarlet & Violet,2024-09-13,175,16
+en-US,SFA,Shrouded Fable,Scarlet & Violet,2024-08-02,99,17
+en-US,TWM,Twilight Masquerade,Scarlet & Violet,2024-05-24,226,18
+en-US,TEF,Temporal Forces,Scarlet & Violet,2024-03-22,218,19
+en-US,PAF,Paldean Fates,Scarlet & Violet,2024-01-26,245,20
+en-US,PAR,Paradox Rift,Scarlet & Violet,2023-11-03,266,21
+en-US,MEW,Pokémon 151,Scarlet & Violet,2023-09-22,207,22
+en-US,OBF,Obsidian Flames,Scarlet & Violet,2023-08-11,230,23
+en-US,PAL,Paldea Evolved,Scarlet & Violet,2023-06-09,279,24
+en-US,SVI,Scarlet & Violet,Scarlet & Violet,2023-03-31,258,25
+en-US,SVE,Scarlet & Violet Energy,Scarlet & Violet,2023-03-30,24,26
+en-US,SVP,Scarlet & Violet Promos,Scarlet & Violet,,217,27
+en-US,CRZ,Crown Zenith,Sword & Shield,2023-01-20,230,28
+en-US,SIT,Silver Tempest,Sword & Shield,2022-11-11,245,29
+en-US,LOR,Lost Origin,Sword & Shield,2022-09-09,247,30
+en-US,PGO,Pokémon GO,Sword & Shield,2022-07-01,88,31
+en-US,ASR,Astral Radiance,Sword & Shield,2022-05-27,246,32
+en-US,BRS,Brilliant Stars,Sword & Shield,2022-02-25,224,33
+en-US,FST,Fusion Strike,Sword & Shield,2021-11-12,284,34
+en-US,CEL,Celebrations,Sword & Shield,2021-10-08,50,35
+en-US,EVS,Evolving Skies,Sword & Shield,2021-08-27,237,36
+en-US,CRE,Chilling Reign,Sword & Shield,2021-06-18,233,37
+en-US,BST,Battle Styles,Sword & Shield,2021-03-19,183,38
+en-US,SHF,Shining Fates,Sword & Shield,2021-02-19,195,39
+en-US,VIV,Vivid Voltage,Sword & Shield,2020-11-13,203,40
+en-US,CPA,Champion's Path,Sword & Shield,2020-09-25,80,41
+en-US,DAA,Darkness Ablaze,Sword & Shield,2020-08-14,201,42
+en-US,RCL,Rebel Clash,Sword & Shield,2020-05-01,209,43
+en-US,SSH,Sword & Shield,Sword & Shield,2020-02-07,224,44
+en-US,SP,Sword & Shield Promos,Sword & Shield,,292,45
+en-US,CEC,Cosmic Eclipse,Sun & Moon,2019-11-01,271,46
+en-US,HIF,Hidden Fates,Sun & Moon,2019-08-23,163,47
+en-US,UNM,Unified Minds,Sun & Moon,2019-08-02,258,48
+en-US,UNB,Unbroken Bonds,Sun & Moon,2019-05-03,234,49
+en-US,DET,Detective Pikachu,Sun & Moon,2019-03-29,18,50
+en-US,TEU,Team Up,Sun & Moon,2019-02-01,205,51
+en-US,LOT,Lost Thunder,Sun & Moon,2018-11-02,236,52
+en-US,DRM,Dragon Majesty,Sun & Moon,2018-09-07,78,53
+en-US,CES,Celestial Storm,Sun & Moon,2018-08-03,183,54
+en-US,FLI,Forbidden Light,Sun & Moon,2018-05-04,146,55
+en-US,UPR,Ultra Prism,Sun & Moon,2018-02-02,173,56
+en-US,CIN,Crimson Invasion,Sun & Moon,2017-11-03,124,57
+en-US,SLG,Shining Legends,Sun & Moon,2017-10-06,78,58
+en-US,BUS,Burning Shadows,Sun & Moon,2017-08-04,169,59
+en-US,GRI,Guardians Rising,Sun & Moon,2017-05-05,169,60
+en-US,SUM,Sun & Moon,Sun & Moon,2017-02-03,172,61
+en-US,SMP,Sun & Moon Promos,Sun & Moon,,248,62
+en-US,EVO,Evolutions,XY,2016-11-02,113,63
+en-US,STS,Steam Siege,XY,2016-08-03,116,64
+en-US,FCO,Fates Collide,XY,2016-05-02,125,65
+en-US,GEN,Generations,XY,2016-02-22,115,66
+en-US,BKP,BREAKpoint,XY,2016-02-03,123,67
+en-US,BKT,BREAKthrough,XY,2015-11-04,164,68
+en-US,AOR,Ancient Origins,XY,2015-08-12,100,69
+en-US,ROS,Roaring Skies,XY,2015-05-06,110,70
+en-US,DCR,Double Crisis,XY,2015-03-25,34,71
+en-US,PRC,Primal Clash,XY,2015-02-04,164,72
+en-US,PHF,Phantom Forces,XY,2014-11-05,122,73
+en-US,FFI,Furious Fists,XY,2014-08-13,113,74
+en-US,FLF,Flashfire,XY,2014-05-07,109,75
+en-US,XY,XY,XY,2014-02-05,146,76
+en-US,KSS,Kalos Starter Set,XY,2013-11-08,39,77
+en-US,XYP,XY Promos,XY,,211,78
+en-US,LTR,Legendary Treasures,Black & White,2013-11-06,140,79
+en-US,PLB,Plasma Blast,Black & White,2013-08-14,105,80
+en-US,PLF,Plasma Freeze,Black & White,2013-05-08,122,81
+en-US,PLS,Plasma Storm,Black & White,2013-02-06,138,82
+en-US,BCR,Boundaries Crossed,Black & White,2012-11-07,153,83
+en-US,DRV,Dragon Vault,Black & White,2012-10-05,21,84
+en-US,DRX,Dragons Exalted,Black & White,2012-08-15,128,85
+en-US,DEX,Dark Explorers,Black & White,2012-05-09,111,86
+en-US,NXD,Next Destinies,Black & White,2012-02-08,103,87
+en-US,NVI,Noble Victories,Black & White,2011-11-16,102,88
+en-US,EPO,Emerging Powers,Black & White,2011-08-31,98,89
+en-US,BLW,Black & White,Black & White,2011-04-25,115,90
+en-US,BWP,Black & White Promos,Black & White,,101,91
+en-US,CL,Call of Legends,HeartGold & SoulSilver,2011-02-09,106,92
+en-US,TM,Triumphant,HeartGold & SoulSilver,2010-11-03,103,93
+en-US,UD,Undaunted,HeartGold & SoulSilver,2010-08-18,91,94
+en-US,UL,Unleashed,HeartGold & SoulSilver,2010-05-12,96,95
+en-US,HS,HeartGold & SoulSilver,HeartGold & SoulSilver,2010-02-10,124,96
+en-US,HSP,HeartGold & SoulSilver Promos,HeartGold & SoulSilver,,25,97
+en-US,RM,Pokémon Rumble,Diamond & Pearl / Platinum,2009-12-02,16,98
+en-US,AR,Arceus,Diamond & Pearl / Platinum,2009-11-04,111,99
+en-US,SV,Supreme Victors,Diamond & Pearl / Platinum,2009-08-19,153,100
+en-US,RR,Rising Rivals,Diamond & Pearl / Platinum,2009-05-20,120,101
+en-US,P9,POP Series 9,Diamond & Pearl / Platinum,2009-03-01,17,102
+en-US,PL,Platinum,Diamond & Pearl / Platinum,2009-02-11,133,103
+en-US,SF,Stormfront,Diamond & Pearl / Platinum,2008-11-05,106,104
+en-US,P8,POP Series 8,Diamond & Pearl / Platinum,2008-09-01,17,105
+en-US,LA,Legends Awakened,Diamond & Pearl / Platinum,2008-08-20,146,106
+en-US,MD,Majestic Dawn,Diamond & Pearl / Platinum,2008-05-21,100,107
+en-US,P7,POP Series 7,Diamond & Pearl / Platinum,2008-03-01,17,108
+en-US,GE,Great Encounters,Diamond & Pearl / Platinum,2008-02-13,106,109
+en-US,SW,Secret Wonders,Diamond & Pearl / Platinum,2007-11-07,132,110
+en-US,P6,POP Series 6,Diamond & Pearl / Platinum,2007-09-01,17,111
+en-US,MT,Mysterious Treasures,Diamond & Pearl / Platinum,2007-08-22,124,112
+en-US,DP,Diamond & Pearl,Diamond & Pearl / Platinum,2007-05-23,130,113
+en-US,DPP,Diamond & Pearl Promos,Diamond & Pearl / Platinum,,56,114
+en-US,P5,POP Series 5,EX,2007-03-01,17,115
+en-US,PK,Power Keepers,EX,2007-02-14,108,116
+en-US,DF,Dragon Frontiers,EX,2006-11-08,101,117
+en-US,CG,Crystal Guardians,EX,2006-08-30,100,118
+en-US,P4,POP Series 4,EX,2006-08-01,17,119
+en-US,HP,Holon Phantoms,EX,2006-05-03,111,120
+en-US,P3,POP Series 3,EX,2006-04-01,17,121
+en-US,LM,Legend Maker,EX,2006-02-13,93,122
+en-US,DS,Delta Species,EX,2005-10-31,114,123
+en-US,UF,Unseen Forces,EX,2005-08-22,143,124
+en-US,P2,POP Series 2,EX,2005-08-01,17,125
+en-US,EM,Emerald,EX,2005-05-09,107,126
+en-US,DX,Deoxys,EX,2005-02-14,108,127
+en-US,TRR,Team Rocket Returns,EX,2004-11-08,111,128
+en-US,P1,POP Series 1,EX,2004-09-01,17,129
+en-US,RG,FireRed & LeafGreen,EX,2004-08-30,116,130
+en-US,HL,Hidden Legends,EX,2004-06-14,102,131
+en-US,MA,Team Magma vs Team Aqua,EX,2004-03-15,97,132
+en-US,DR,Dragon,EX,2003-11-24,100,133
+en-US,SS,Sandstorm,EX,2003-09-18,100,134
+en-US,RS,Ruby & Sapphire,EX,2003-06-18,109,135
+en-US,NP,Nintendo Promos,EX,,40,136
+en-US,E3,Skyridge,WotC Era,2003-05-12,182,137
+en-US,E2,Aquapolis,WotC Era,2003-01-15,182,138
+en-US,BG,Best of Game,WotC Era,2002-12-01,9,139
+en-US,E1,Expedition,WotC Era,2002-09-15,165,140
+en-US,LC,Legendary Collection,WotC Era,2002-05-24,110,141
+en-US,N4,Neo Destiny,WotC Era,2002-02-28,113,142
+en-US,N3,Neo Revelation,WotC Era,2001-09-21,66,143
+en-US,SI,Southern Islands,WotC Era,2001-07-31,18,144
+en-US,N2,Neo Discovery,WotC Era,2001-06-01,75,145
+en-US,N1,Neo Genesis,WotC Era,2000-12-16,111,146
+en-US,G2,Gym Challenge,WotC Era,2000-10-16,132,147
+en-US,G1,Gym Heroes,WotC Era,2000-08-14,132,148
+en-US,TR,Team Rocket,WotC Era,2000-04-24,83,149
+en-US,BS2,Base Set 2,WotC Era,2000-02-24,130,150
+en-US,FO,Fossil,WotC Era,1999-10-10,62,151
+en-US,JU,Jungle,WotC Era,1999-06-16,64,152
+en-US,BS,Base Set,WotC Era,1999-01-09,102,153
+en-US,WP,WotC Promos,WotC Era,,53,154
+ja-JP,M7,Aura Seeker,Mega,2026-11-27,78,0
+ja-JP,MG,Special Deck Set MEGA,Mega,2026-11-13,38,1
+ja-JP,M6a,30th Celebration,Mega,2026-09-16,111,2
+ja-JP,MF,30th Celebration Premium Deck Set Espeon & Umbreon,Mega,2026-09-16,49,3
+ja-JP,M6,Storm Emeralda,Mega,2026-07-31,113,4
+ja-JP,MEE,ex Starter Set Eevee ex,Mega,2026-07-31,20,5
+ja-JP,MEM,ex Starter Set Sprigatito & Meowscarada ex,Mega,2026-07-31,18,6
+ja-JP,MEZ,ex Starter Set Zorua & Zoroark ex,Mega,2026-07-31,20,7
+ja-JP,M5,Abyss Eye,Mega,2026-05-22,118,8
+ja-JP,M4,Ninja Spinner,Mega,2026-03-13,120,9
+ja-JP,M3,Nihil Zero,Mega,2026-01-23,117,10
+ja-JP,MC,Starter Decks 100 Battle Collection,Mega,2025-12-19,774,11
+ja-JP,MP1,Starter Decks 100 Battle Collection CoroCiao ver.,Mega,2025-12-19,23,12
+ja-JP,M2a,Mega Dream ex,Mega,2025-11-28,250,13
+ja-JP,M2,Inferno X,Mega,2025-09-26,116,14
+ja-JP,MBD,MEGA Starter Set Mega Diancie ex,Mega,2025-09-05,22,15
+ja-JP,MBG,MEGA Starter Set Mega Gengar ex,Mega,2025-09-05,22,16
+ja-JP,M1L,Mega Brave,Mega,2025-08-01,92,17
+ja-JP,M1S,Mega Symphonia,Mega,2025-08-01,92,18
+ja-JP,MA,Premium Trainer Box MEGA,Mega,2025-08-01,43,19
+ja-JP,MP,Mega Promotional Cards,Mega,,166,20
+ja-JP,SV11B,Black Bolt,Scarlet & Violet,2025-06-06,174,21
+ja-JP,SV11W,White Flare,Scarlet & Violet,2025-06-06,174,22
+ja-JP,SV10,Glory of Team Rocket,Scarlet & Violet,2025-04-18,132,23
+ja-JP,SV9a,Heat Wave Arena,Scarlet & Violet,2025-03-14,92,24
+ja-JP,SVOD,ex Starter Set Steven's Beldum & Metagross ex,Scarlet & Violet,2025-02-21,19,25
+ja-JP,SVOM,ex Starter Set Marnie's Morpeko & Grimmsnarl ex,Scarlet & Violet,2025-02-21,20,26
+ja-JP,SV9,Battle Partners,Scarlet & Violet,2025-01-24,132,27
+ja-JP,SVN,Battle Partners Deck Build Box,Scarlet & Violet,2025-01-24,45,28
+ja-JP,SV8a,Terastal Fest ex,Scarlet & Violet,2024-12-06,237,29
+ja-JP,SVM,Starter Decks Generations,Scarlet & Violet,2024-11-22,175,30
+ja-JP,SV8,Super Electric Breaker,Scarlet & Violet,2024-10-18,137,31
+ja-JP,SV7a,Paradise Dragona,Scarlet & Violet,2024-09-13,94,32
+ja-JP,SVLN,Stellar Tera Type Starter Set Sylveon ex,Scarlet & Violet,2024-08-30,22,33
+ja-JP,SVLS,Stellar Tera Type Starter Set Ceruledge ex,Scarlet & Violet,2024-08-30,22,34
+ja-JP,SV7,Stellar Miracle,Scarlet & Violet,2024-07-19,135,35
+ja-JP,SVK,Stellar Miracle Deck Build Box,Scarlet & Violet,2024-07-19,44,36
+ja-JP,SV6a,Night Wanderer,Scarlet & Violet,2024-06-07,94,37
+ja-JP,SVJL,Battle Master Deck Charizard ex,Scarlet & Violet,2024-05-17,21,38
+ja-JP,SVJP,Battle Master Deck Chien-Pao ex,Scarlet & Violet,2024-05-17,19,39
+ja-JP,SV6,Mask of Change,Scarlet & Violet,2024-04-26,133,40
+ja-JP,SV5a,Crimson Haze,Scarlet & Violet,2024-03-22,96,41
+ja-JP,SVI,Scarlet & Violet: Battle Academy,Scarlet & Violet,2024-03-08,74,42
+ja-JP,SV5K,Wild Force,Scarlet & Violet,2024-01-26,100,43
+ja-JP,SV5M,Cyber Judge,Scarlet & Violet,2024-01-26,100,44
+ja-JP,SVHK,Ancient Koraidon ex Starter Deck & Build Set,Scarlet & Violet,2024-01-26,53,45
+ja-JP,SVHM,Future Miradon ex Starter Deck & Build Set,Scarlet & Violet,2024-01-26,53,46
+ja-JP,SV4a,Shiny Treasure ex,Scarlet & Violet,2023-12-01,360,47
+ja-JP,SVG,Special Deck Set ex Venusaur & Charizard & Blastoise,Scarlet & Violet,2023-11-10,52,48
+ja-JP,SV4K,Ancient Roar,Scarlet & Violet,2023-10-27,94,49
+ja-JP,SV4M,Future Flash,Scarlet & Violet,2023-10-27,94,50
+ja-JP,SV3a,Raging Surf,Scarlet & Violet,2023-09-22,92,51
+ja-JP,SVEL,Terastal Starter Set Skeledirge ex,Scarlet & Violet,2023-09-22,20,52
+ja-JP,SVEM,Terastal Starter Set Mewtwo ex,Scarlet & Violet,2023-09-22,20,53
+ja-JP,SV3,Ruler of the Black Flame,Scarlet & Violet,2023-07-28,141,54
+ja-JP,SVF,Deck Build Box Ruler of the Black Flame,Scarlet & Violet,2023-07-28,38,55
+ja-JP,WCS23,World Championships 2023 Yokohama Deck –Pikachu–,Scarlet & Violet,2023-07-28,32,56
+ja-JP,SVD,ex Starter Decks,Scarlet & Violet,2023-07-07,139,57
+ja-JP,SV2a,Pokémon Card 151,Scarlet & Violet,2023-06-16,210,58
+ja-JP,SVP1,ex Special Set,Scarlet & Violet,2023-05-19,7,59
+ja-JP,SV2D,Clay Burst,Scarlet & Violet,2023-04-14,99,60
+ja-JP,SV2P,Snow Hazard,Scarlet & Violet,2023-04-14,99,61
+ja-JP,SVC,ex Starter Set Pikachu ex & Pawmot,Scarlet & Violet,2023-03-24,21,62
+ja-JP,SV1a,Triplet Beat,Scarlet & Violet,2023-03-10,103,63
+ja-JP,SV1S,Scarlet ex,Scarlet & Violet,2023-01-20,108,64
+ja-JP,SV1V,Violet ex,Scarlet & Violet,2023-01-20,108,65
+ja-JP,SVAL,ex Starter Set Fuecoco & Ampharos ex,Scarlet & Violet,2023-01-20,21,66
+ja-JP,SVAM,ex Starter Set Sprigatito & Lucario ex,Scarlet & Violet,2023-01-20,23,67
+ja-JP,SVAW,ex Starter Set Quaxly & Mimikyu ex,Scarlet & Violet,2023-01-20,23,68
+ja-JP,SVB,Premium Trainer Box ex,Scarlet & Violet,2023-01-20,28,69
+ja-JP,SVP,Scarlet & Violet Promotional Cards,Scarlet & Violet,,300,70
+ja-JP,S12a,VSTAR Universe,Sword & Shield,2022-12-02,254,71
+ja-JP,SO,Special Deck Set: Charizard VSTAR vs Rayquaza VMAX,Sword & Shield,2022-11-04,32,72
+ja-JP,S12,Paradigm Trigger,Sword & Shield,2022-10-21,125,73
+ja-JP,S11a,Incandescent Arcana,Sword & Shield,2022-09-02,94,74
+ja-JP,SP6,VSTAR Special Set,Sword & Shield,2022-08-05,6,75
+ja-JP,S11,Lost Abyss,Sword & Shield,2022-07-15,127,76
+ja-JP,SPD,VSTAR&VMAX High-Class Deck Deoxys,Sword & Shield,2022-07-15,21,77
+ja-JP,SPZ,VSTAR&VMAX High-Class Deck Zeraora,Sword & Shield,2022-07-15,21,78
+ja-JP,S10b,Pokémon GO,Sword & Shield,2022-06-17,101,79
+ja-JP,S10a,Dark Phantasma,Sword & Shield,2022-05-13,99,80
+ja-JP,S10D,Time Gazer,Sword & Shield,2022-04-08,88,81
+ja-JP,S10P,Space Juggler,Sword & Shield,2022-04-08,88,82
+ja-JP,SN,Starter Deck 100 CoroCoro ver.,Sword & Shield,2022-03-01,25,83
+ja-JP,S9a,Battle Region,Sword & Shield,2022-02-25,93,84
+ja-JP,SLD,Starter Set Darkrai VSTAR,Sword & Shield,2022-02-25,20,85
+ja-JP,SLL,Starter Set Lucario VSTAR,Sword & Shield,2022-02-25,21,86
+ja-JP,S9,Star Birth,Sword & Shield,2022-01-14,127,87
+ja-JP,SK,VSTAR Premium Trainer Box,Sword & Shield,2022-01-14,30,88
+ja-JP,SI,Starter Decks 100,Sword & Shield,2021-12-17,427,89
+ja-JP,S8b,VMAX Climax,Sword & Shield,2021-12-03,277,90
+ja-JP,SJ,Special Deck Set: Zacian & Zamazenta vs Eternatus,Sword & Shield,2021-11-05,30,91
+ja-JP,S8a,25th Anniversary Collection,Sword & Shield,2021-10-21,37,92
+ja-JP,S8,Fusion Arts,Sword & Shield,2021-09-24,115,93
+ja-JP,SP5,V-UNION Special Card Sets,Sword & Shield,2021-08-20,13,94
+ja-JP,S7D,Skyscraping Perfection,Sword & Shield,2021-07-09,79,95
+ja-JP,S7R,Blue Sky Stream,Sword & Shield,2021-07-09,79,96
+ja-JP,SH,Family Pokémon Card Game,Sword & Shield,2021-07-09,59,97
+ja-JP,S6a,Eevee Heroes,Sword & Shield,2021-05-28,87,98
+ja-JP,SGG,High-Class Deck Gengar VMAX,Sword & Shield,2021-05-28,21,99
+ja-JP,SGI,High-Class Deck Inteleon VMAX,Sword & Shield,2021-05-28,24,100
+ja-JP,SP4,VMAX Special Set Eevee Heroes,Sword & Shield,2021-05-28,8,101
+ja-JP,S6H,Silver Lance,Sword & Shield,2021-04-23,83,102
+ja-JP,S6K,Jet-Black Spirit,Sword & Shield,2021-04-23,83,103
+ja-JP,SP3,Jumbo-Pack Set Silver Lance & Jet-Black Spirit,Sword & Shield,2021-04-23,6,104
+ja-JP,S5a,Matchless Fighters,Sword & Shield,2021-03-19,84,105
+ja-JP,S5I,Single Strike Master,Sword & Shield,2021-01-22,81,106
+ja-JP,S5R,Rapid Strike Master,Sword & Shield,2021-01-22,81,107
+ja-JP,SF,Premium Trainer Box Single Strike & Rapid Strike,Sword & Shield,2021-01-22,33,108
+ja-JP,SC2,Charizard VMAX Starter Set 2,Sword & Shield,2020-12-04,21,109
+ja-JP,SEF,Venusaur VMAX Starter Set,Sword & Shield,2020-12-04,21,110
+ja-JP,SEK,Blastoise VMAX Starter Set,Sword & Shield,2020-12-04,20,111
+ja-JP,S4a,Shiny Star V,Sword & Shield,2020-11-20,326,112
+ja-JP,SP2,VMAX Special Set,Sword & Shield,2020-10-23,8,113
+ja-JP,S4,Amazing Volt Tackle,Sword & Shield,2020-09-18,111,114
+ja-JP,S3a,Legendary Heartbeat,Sword & Shield,2020-07-10,85,115
+ja-JP,SD,V Starter Decks,Sword & Shield,2020-07-10,127,116
+ja-JP,S3,Infinity Zone,Sword & Shield,2020-06-05,110,117
+ja-JP,S2a,Explosive Walker,Sword & Shield,2020-04-24,78,118
+ja-JP,SCd,Grimmsnarl VMAX Starter Set,Sword & Shield,2020-03-27,20,119
+ja-JP,SCr,Charizard VMAX Starter Set,Sword & Shield,2020-03-27,21,120
+ja-JP,S2,Rebel Clash,Sword & Shield,2020-03-06,106,121
+ja-JP,S1a,VMAX Rising,Sword & Shield,2020-02-07,78,122
+ja-JP,SP1,Zacian & Zamazenta Box,Sword & Shield,2019-12-27,7,123
+ja-JP,S1H,Shield,Sword & Shield,2019-12-06,68,124
+ja-JP,S1W,Sword,Sword & Shield,2019-12-06,68,125
+ja-JP,SB,Premium Trainer Box Sword & Shield,Sword & Shield,2019-12-06,24,126
+ja-JP,SAf,Starter Set V Fighting,Sword & Shield,2019-11-29,25,127
+ja-JP,SAg,Starter Set V Grass,Sword & Shield,2019-11-29,24,128
+ja-JP,SAl,Starter Set V Lightning,Sword & Shield,2019-11-29,25,129
+ja-JP,SAr,Starter Set V Fire,Sword & Shield,2019-11-29,24,130
+ja-JP,SAw,Starter Set V Water,Sword & Shield,2019-11-29,24,131
+ja-JP,SP,Sword & Shield Promotional Cards,Sword & Shield,,300,132
+ja-JP,SM12a,Tag All Stars,Sun & Moon,2019-10-04,173,133
+ja-JP,SM12,Alter Genesis,Sun & Moon,2019-09-06,95,134
+ja-JP,SM11b,Dream League,Sun & Moon,2019-08-02,68,135
+ja-JP,SM11a,Remix Bout,Sun & Moon,2019-07-05,73,136
+ja-JP,SM11,Miracle Twin,Sun & Moon,2019-05-31,106,137
+ja-JP,SMM,Tag Team GX Starter Sets,Sun & Moon,2019-05-31,31,138
+ja-JP,SM10b,Sky Legend,Sun & Moon,2019-04-26,62,139
+ja-JP,SMP2,Movie Special Pack Great Detective Pikachu,Sun & Moon,2019-04-26,25,140
+ja-JP,SM10a,GG End,Sun & Moon,2019-04-05,62,141
+ja-JP,SML,Family Pokémon Card Game,Sun & Moon,2019-03-15,51,142
+ja-JP,SM10,Double Blaze,Sun & Moon,2019-03-01,107,143
+ja-JP,SMN,Tag Team GX Deck Build Box,Sun & Moon,2019-03-01,29,144
+ja-JP,SM9b,Full Metal Force,Sun & Moon,2019-02-01,62,145
+ja-JP,SMK,Brock & Misty Trainer Battle Decks,Sun & Moon,2019-01-25,31,146
+ja-JP,SM9a,Night Unison,Sun & Moon,2019-01-11,63,147
+ja-JP,SM9,Tag Bolt,Sun & Moon,2018-12-07,109,148
+ja-JP,SMJ,Tag Team GX Premium Trainer Box,Sun & Moon,2018-12-07,35,149
+ja-JP,SMI,Starter Sets Flareon & Jolteon & Vaporeon,Sun & Moon,2018-11-23,38,150
+ja-JP,SM8b,GX Ultra Shiny,Sun & Moon,2018-11-02,243,151
+ja-JP,SM8a,Dark Order,Sun & Moon,2018-10-05,58,152
+ja-JP,SM8,Super Burst Impact,Sun & Moon,2018-09-07,103,153
+ja-JP,SM7b,Fairy Rise,Sun & Moon,2018-08-03,56,154
+ja-JP,SMH,GX Starter Decks,Sun & Moon,2018-07-13,131,155
+ja-JP,SM7a,Thunderclap Spark,Sun & Moon,2018-07-06,66,156
+ja-JP,SM7,Charisma of the Ripped Sky,Sun & Moon,2018-06-01,104,157
+ja-JP,SM6b,Champion's Road,Sun & Moon,2018-05-03,77,158
+ja-JP,SM6a,Dragon Storm,Sun & Moon,2018-04-06,59,159
+ja-JP,SM6,Forbidden Light,Sun & Moon,2018-03-02,102,160
+ja-JP,SMG,Ultra Sun & Ultra Moon Deck Battle Box,Sun & Moon,2018-02-16,12,161
+ja-JP,SM5p,Ultra Force,Sun & Moon,2018-01-19,56,162
+ja-JP,SM5M,Ultra Moon,Sun & Moon,2017-12-08,72,163
+ja-JP,SM5S,Ultra Sun,Sun & Moon,2017-12-08,72,164
+ja-JP,SMF,Premium Trainer Box Ultra Sun & Ultra Moon,Sun & Moon,2017-12-08,12,165
+ja-JP,SME,Starter Set Solgaleo-GX & Lunala-GX,Sun & Moon,2017-11-10,21,166
+ja-JP,SM4p,GX Battle Boost,Sun & Moon,2017-10-20,120,167
+ja-JP,SM4A,Beasts from the Ultradimension,Sun & Moon,2017-09-15,55,168
+ja-JP,SM4S,Awakened Heroes,Sun & Moon,2017-09-15,55,169
+ja-JP,SM3p,Shining Legends,Sun & Moon,2017-07-15,77,170
+ja-JP,SM3H,Did You See The Fighting Rainbow,Sun & Moon,2017-06-16,57,171
+ja-JP,SM3N,Light Consuming Darkness,Sun & Moon,2017-06-16,57,172
+ja-JP,SM2p,Let's Face New Trials,Sun & Moon,2017-04-21,61,173
+ja-JP,SMD,Ash VS Team Rocket Half Decks,Sun & Moon,2017-04-21,30,174
+ja-JP,SM2K,Islands Await You,Sun & Moon,2017-03-17,55,175
+ja-JP,SM2L,Alolan Moonlight,Sun & Moon,2017-03-17,55,176
+ja-JP,SMC,Starter Set Tapu Bulu-GX,Sun & Moon,2017-03-17,21,177
+ja-JP,SM1p,Sun and Moon plus,Sun & Moon,2017-01-27,63,178
+ja-JP,SMP1,Rockruff Full Strength Deck,Sun & Moon,2016-12-15,13,179
+ja-JP,SM1M,Collection Moon,Sun & Moon,2016-12-09,66,180
+ja-JP,SM1S,Collection Sun,Sun & Moon,2016-12-09,66,181
+ja-JP,SMA,Starter Set SM,Sun & Moon,2016-12-09,68,182
+ja-JP,SMB,Premium Trainer Box,Sun & Moon,2016-12-09,15,183
+ja-JP,SM0,Pikachu and new Friends,Sun & Moon,2016-11-18,4,184
+ja-JP,SMP,Sun and Moon Promotional Cards,Sun & Moon,,440,185
+ja-JP,XY,Best of XY,XY,2017-04-21,314,186
+ja-JP,CP6,20th Anniversary Pack,XY,2016-09-16,103,187
+ja-JP,CP5,Illusion - Legend - Dream Holo Collection,XY,2016-07-16,38,188
+ja-JP,XY11b,Heat Burst Fighter,XY,2016-06-17,58,189
+ja-JP,XY11r,Cruel Traitor,XY,2016-06-17,58,190
+ja-JP,CP4,EX x MEGA x BREAK Champion Pack,XY,2016-04-16,140,191
+ja-JP,XY10,Awakened Psychic King,XY,2016-03-18,87,192
+ja-JP,XYG,Perfect Battle Deck Zygarde-EX,XY,2016-03-18,20,193
+ja-JP,XYH,Mega Battle Deck Audino-EX,XY,2016-03-18,27,194
+ja-JP,20th,Pokemon Card Game Starter Pack,XY,2016-02-27,84,195
+ja-JP,CP3,Pokekyun Collection,XY,2016-01-29,32,196
+ja-JP,XY9,Rage of the Broken Heaven,XY,2015-12-11,88,197
+ja-JP,XYF,Golduck BREAK and Palkia-EX Deck,XY,2015-10-09,17,198
+ja-JP,SNPo,Noivern BREAK Evolution Pack,XY,2015-09-26,10,199
+ja-JP,SNPr,Raichu BREAK Evolution Pack,XY,2015-09-26,10,200
+ja-JP,XY8b,Blue Counterattack,XY,2015-09-26,64,201
+ja-JP,XY8r,Red Light Flash,XY,2015-09-26,64,202
+ja-JP,MMBp,Master Deck Build Box MEGA Power Style,XY,2015-08-07,58,203
+ja-JP,MMBs,Master Deck Build Box MEGA Speed Style,XY,2015-08-07,58,204
+ja-JP,CP2,Legendary Holo Collection,XY,2015-07-18,27,205
+ja-JP,XYE,Emboar-EX VS Togekiss-EX Half Decks,XY,2015-07-18,26,206
+ja-JP,XY7,Bandit Ring,XY,2015-06-20,95,207
+ja-JP,XY6,Emerald Break,XY,2015-03-14,89,208
+ja-JP,XYD,MEGA Rayquaza-EX Deck,XY,2015-03-14,20,209
+ja-JP,CP1,Team Magma VS Team Aqua Double Crisis,XY,2015-01-30,34,210
+ja-JP,XY5g,Gaia Volcano,XY,2014-12-13,78,211
+ja-JP,XY5t,Tidal Storm,XY,2014-12-13,78,212
+ja-JP,XYC,Xerneas-EX and Yveltal-EX Deck,XY,2014-11-14,25,213
+ja-JP,XY4,Phantom Gate,XY,2014-09-13,95,214
+ja-JP,XYB,Dialga-EX and Aegislash-EX Deck,XY,2014-09-13,19,215
+ja-JP,XY3,Rising Fist,XY,2014-06-14,103,216
+ja-JP,XY2,Wild Blaze,XY,2014-03-15,87,217
+ja-JP,XYA,MEGA Charizard Deck,XY,2014-03-15,23,218
+ja-JP,X30,Xerneas Half Deck,XY,2014-01-31,15,219
+ja-JP,Y30,Yveltal Half Deck,XY,2014-01-31,15,220
+ja-JP,XY1x,Collection X,XY,2013-12-13,63,221
+ja-JP,XY1y,Collection Y,XY,2013-12-13,63,222
+ja-JP,HXY,Starting Set XY,XY,2013-11-15,45,223
+ja-JP,XYP,XY Promotional Cards,XY,,448,224
+ja-JP,EBB,EX Battle Boost,Black & White,2013-07-13,97,225
+ja-JP,MGg,Genesect Half Deck,Black & White,2013-07-13,17,226
+ja-JP,MGm,Mewtwo Half Deck,Black & White,2013-07-13,17,227
+ja-JP,BW9,Megalo Cannon,Black & White,2013-03-15,76,228
+ja-JP,KK,Blastoise & Kyurem-EX Deck,Black & White,2013-03-15,19,229
+ja-JP,SC,Shiny Collection,Black & White,2013-02-01,20,230
+ja-JP,BW8f,Spiral Force,Black & White,2012-12-14,51,231
+ja-JP,BW8n,Raiden Knuckle,Black & White,2012-12-14,51,232
+ja-JP,PBG,Team Plasma Battle Gift Set,Black & White,2012-11-16,18,233
+ja-JP,WAK,Everyone's Exciting Battle,Black & White,2012-11-16,62,234
+ja-JP,BKB,Black Kyurem-EX Deck,Black & White,2012-10-19,20,235
+ja-JP,BKW,White Kyurem-EX Deck,Black & White,2012-10-19,20,236
+ja-JP,BW7,Plasma Gale,Black & White,2012-09-14,70,237
+ja-JP,MDB,Master Deck Build Box EX,Black & White,2012-09-14,51,238
+ja-JP,PPD,Team Plasma Powered Deck,Black & White,2012-09-14,19,239
+ja-JP,BW6c,Cold Flare,Black & White,2012-07-13,59,240
+ja-JP,BW6f,Freeze Bolt,Black & White,2012-07-13,59,241
+ja-JP,HSZ,Starting Set BW Pokedex Edition,Black & White,2012-04-20,40,242
+ja-JP,KLD,Keldeo Half Deck,Black & White,2012-04-20,18,243
+ja-JP,BW5n,Dragon Blade,Black & White,2012-03-16,50,244
+ja-JP,BW5z,Dragon Blast,Black & White,2012-03-16,50,245
+ja-JP,GBR,Garchomp Half Deck,Black & White,2012-03-16,18,246
+ja-JP,SZD,Hydreigon Half Deck,Black & White,2012-03-16,18,247
+ja-JP,DS,Dragon Selection,Black & White,2012-01-27,20,248
+ja-JP,BW4,Dark Rush,Black & White,2011-12-16,69,249
+ja-JP,BGS,Thundurus VS Tornadus Battle Gift Set,Black & White,2011-11-18,26,250
+ja-JP,HSP,Starting Set BW Pikachu Edition,Black & White,2011-11-18,40,251
+ja-JP,BKR,Reshiram-EX Deck,Black & White,2011-10-21,20,252
+ja-JP,BKZ,Zekrom-EX Deck,Black & White,2011-10-21,20,253
+ja-JP,BW3h,Hail Blizzard,Black & White,2011-09-16,52,254
+ja-JP,BW3p,Psycho Drive,Black & White,2011-09-16,52,255
+ja-JP,BW2,Red Collection,Black & White,2011-07-15,67,256
+ja-JP,BTV,Victini Deck,Black & White,2011-06-17,24,257
+ja-JP,BKc,Cobalion Deck,Black & White,2011-03-18,14,258
+ja-JP,BKt,Terrakion Deck,Black & White,2011-03-18,14,259
+ja-JP,BKv,Virizion Deck,Black & White,2011-03-18,14,260
+ja-JP,BW1b,Black Collection,Black & White,2010-12-17,53,261
+ja-JP,BW1w,White Collection,Black & White,2010-12-17,54,262
+ja-JP,HS,Starting Set BW,Black & White,2010-10-29,43,263
+ja-JP,CS1,Snivy - Tepig - Oshawott Collection Sheet,Black & White,2010-09-18,9,264
+ja-JP,BWP,Black & White Promotional Cards,Black & White,,246,265
